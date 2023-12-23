@@ -22,6 +22,7 @@ type Query {
     image: String
     link: String
     title: String!
+    _id: ID!
   }
     input BookInput {
         authors: [String]
